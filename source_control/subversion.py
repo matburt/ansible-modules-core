@@ -76,12 +76,14 @@ options:
     required: false
     default: "yes"
     choices: [ "yes", "no" ]
+    version_added: "2.3"
     description:
      - If no, do not check out the repository if it does not exist locally
   update:
     required: false
     default: "yes"
     choices: [ "yes", "no" ]
+    version_added: "2.3"
     description:
      - If no, do not retrieve new revisions from the origin repository
   export:
